@@ -23,7 +23,7 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - name: Descomprimir RentableZone
+      - name: Descomprimir proyecto
         run: |
           unzip -o RentableZone_A11_v0.2_source.zip
 

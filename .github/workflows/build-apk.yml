@@ -25,8 +25,8 @@ jobs:
 
       - name: Descomprimir proyecto
         run: |
-          unzip -o RentableZone_A11_v0.2_source.zip
-
+          
+unzip -o RentableZone_A11_v0.3_source.zip
       - name: Compilar APK
         working-directory: RentableZone
         run: gradle assembleDebug
